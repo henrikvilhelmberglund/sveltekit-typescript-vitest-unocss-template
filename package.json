@@ -1,9 +1,9 @@
 {
 	"name": "sveltekit-typescript-vitest-unocss-template",
 	"version": "0.0.0",
-  "author": "Henrik Berglund",
-  "license": "MIT",
-  "description": "SvelteKit template with Typescript, Vitest and UnoCSS",
+	"author": "Henrik Berglund",
+	"license": "MIT",
+	"description": "SvelteKit template with Typescript, Vitest and UnoCSS",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
