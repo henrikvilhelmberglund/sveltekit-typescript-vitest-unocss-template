@@ -2,7 +2,7 @@ import { defineConfig, presetIcons, presetUno, presetWebFonts } from 'unocss';
 import { presetForms } from '@julr/unocss-preset-forms';
 import { presetHeroPatterns } from '@julr/unocss-preset-heropatterns';
 import { createSafeList } from './src/lib/theme/safelist';
-import { themes } from './src/lib/theme/theme.js';
+import { themes } from './src/lib/theme/theme';
 import presetTheme from 'unocss-preset-theme';
 
 export const reloadMe = true;
