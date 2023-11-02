@@ -9,7 +9,7 @@
     <!-- this should fail -->
 		<!-- {value} -->
 
-    <!-- this should work -->
+    <!-- this should work (only one at a time) -->
 		{formatCurrency(value)}
 	</p>
 </div>
