@@ -23,19 +23,6 @@ export default defineConfig({
 		`font-thin font-extralight font-light font-normal font-medium font-semibold font-bold font-extrabold font-black
         btn-primary btn-secondary`
 	],
-	variants: [
-		{
-			match: (matcher) => {
-				if (!matcher.startsWith('hover:')) return matcher;
-				return {
-					matcher: matcher.slice(6),
-					parent: '@media (hover) and (pointer: fine)',
-					selector: (s) => `${s}:hover`
-				};
-			},
-			order: -1
-		}
-	],
 	theme: {},
 	presets: [
 		presetUno({ dark: 'class' }),
